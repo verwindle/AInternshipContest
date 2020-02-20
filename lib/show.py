@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def show_img_with_mask(img, mask, figsize=(14, 8)):
@@ -20,3 +21,12 @@ def show_img_with_mask(img, mask, figsize=(14, 8)):
     ax1.axis("off")
     ax2.axis("off")
     plt.show()
+
+
+def show_hist(df):
+    plt.rcParams['figure.figsize'] = (12, 8)
+    sns.set_style('darkgrid')
+    sns.set_palette('RdBu')
+    g = sns.FacetGrid(df.reset_index(), hue='model', height=3, aspect=2)
+    g.map(plt.hist, "dice", bins=16, alpha=.7)
+    g.add_legend()

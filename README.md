@@ -8,3 +8,6 @@
 - `train/coco_annotations.json` содержит аннотации в формате [COCO](http://cocodataset.org/#format-data);  
 - `val/images` содержит фотографии 512x512x3;  
 - `val/coco_annotations.json` содержит аннотации в формате [COCO](http://cocodataset.org/#format-data).
+
+Для запуска необходимо будет еще склонировать mask rcnn
+git clone https://github.com/noelcodes/Mask_RCNN.git, сделать билд, добавить в папку logs.

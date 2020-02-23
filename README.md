@@ -11,4 +11,5 @@
 
 Для запуска необходимо будет еще склонировать mask rcnn
 git clone https://github.com/noelcodes/Mask_RCNN.git, сделать билд, добавить в папку logs.
-ссылка на логи - https://drive.google.com/drive/u/1/folders/1-Mqlblr0oO5HLXbb4H0ulJGegpVpug1i
+
+Ссылка на логи - https://drive.google.com/drive/u/1/folders/1-Mqlblr0oO5HLXbb4H0ulJGegpVpug1i
